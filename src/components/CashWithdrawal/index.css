@@ -1,0 +1,144 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.cash-withdrawal-container {
+  margin: 10px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-container {
+    width: 50%;
+    max-width: 500px;
+    padding: 40px;
+  }
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.initial-container {
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+
+.initial {
+  font-size: 18px;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 22px;
+  }
+}
+
+.your-balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .your-balance {
+    font-size: 24px;
+  }
+}
+
+.amount {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 32px;
+  }
+}
+.in-rupees {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .in-rupees {
+    font-size: 14px;
+  }
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .withdraw {
+    font-size: 28px;
+  }
+}
+
+.choose-sum {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-sum {
+    font-size: 18px;
+  }
+}
+
+.ul-container {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

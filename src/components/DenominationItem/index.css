@@ -1,0 +1,19 @@
+.list-item {
+  width: 48%;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.button {
+  background-color: #382f5a;
+  border: 1px solid #d4d2db;
+  width: 100%;
+  color: #c4c4c4;
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
